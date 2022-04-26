@@ -1,0 +1,70 @@
+body {
+  background-image: url("assets/img/friends.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-size: 35px;
+}
+
+.heading, .text {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 15px;
+}
+
+.text {
+  font-size: 25px;
+  color: #fff;
+}
+
+label {
+  font-size: 20px;
+  text-align: center;
+  padding: 15px;
+  font-weight:bold;
+}
+
+img {
+  width: 450px;
+  align-self: center;
+  margin: 10px;
+}
+
+span {
+  align-self: center;
+  text-align: center;
+  font-size: 18px;
+}
+
+input {
+  align-self: center;
+  margin: 5px;
+}
+
+.question {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  padding: 10px;
+}
+
+.btn {
+  background-color: #FCD900;
+  width: 100%;
+  border: 1px solid black;
+  padding: 15px;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+form { 
+  background-color:rgba(240, 247, 238, 0.2);
+  width: 600px;
+  padding: 15px;
+  margin: 20px auto;
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+  <title>Document</title>
+</head>
+<body>
+  <div class="heading">
+    <h1>Как хорошо вы знаете «Друзей»?</h1>
+  </div>
+
+  <p class="text">22 сентября 1994 года на телеканале NBC вышла первая серия «Друзей». <br> Проверьте, помните ли вы культовый ситком.</p>
+
+  <form action="">
+
+    <div class="question">
+      <label>1. Предупреждаем сразу: этот вопрос — самый легкий. В первом сезоне Фиби влюбилась в Дэвида, физика, который позднее принес личную жизнь в жертву науке. Их роман закончился, когда Дэвида отправили в длительную командировку вдали от США. Куда?</label>
+      <img src="assets/img/quesr1.jpg" alt="photo">
+      <span>Минск. Это в России</span><input type="radio" name="questionOne" id="answerOne">
+      <span>Москва. Это в Украине</span><input type="radio" name="questionOne">
+      <span>Киев. Это в Белоруссии</span><input type="radio" name="questionOne">
+      <span>Нур-Султан. Это в Казахстане</span><input type="radio" name="questionOne">
+    </div>
+
+    <div class="question">
+      <label>2. Известно, что чувство юмора Чендлера — защитная реакция, которая возникла после травмы детства, связанной с его родителями. Что же тогда произошло?</label>
+      <img src="assets/img/quest2.jpg" alt="photo">
+      <span>Ничего. Просто родители никогда не любили Чендлера</span><input type="radio" name="questionTwo">
+      <span>Его отец ушел из семьи к дворецкому</span><input type="radio" name="questionTwo" id="answerTwo">
+      <span>Чендлер увидел, как отец тайно изменяет своей жене с другой женщиной</span><input type="radio" name="questionTwo">
+      <span>В возрасте семи лет Чендлер случайно узнал, что он — приемный ребенок</span><input type="radio" name="questionTwo">
+    </div>
+
+    <div class="question">
+      <label>3. А зачем Джоуи надел индейку на голову в День благодарения?</label>
+      <img src="assets/img/quest3.jpg" alt="photo">
+      <span>Хотел повеселить Рейчел</span><input type="radio" name="questionThree">
+      <span>Об этот попросила Фиби</span><input type="radio" name="questionThree">
+      <span>Хотел напугать Чендлера</span><input type="radio" name="questionThree" id="answerThree">
+      <span>Хотел проверить, пролезет ли в индейку его голова</span><input type="radio" name="questionThree">
+    </div>
+
+    <div class="question">
+      <label>4. Вообще День благодарения у друзей всегда проходит ярко, и дело не только в индейке. Известно, что в один из таких дней Чендлер лишился части своего тела. Какой?</label>
+      <img src="assets/img/quest4.jpg" alt="photo">
+      <span>Третьего соска. Он всегда стеснялся его и сам себе отрезал</span><input type="radio" name="questionFour">
+      <span>Мизинца на ноге. Его отрубила Моника</span><input type="radio" name="questionFour" id="answerFour">
+      <span>Мизинца на руке. Хотел быть таким, как Норман в «Четырех комнатах»</span><input type="radio" name="questionFour">
+      <span>Мочки уха. Молодость, серьги, 1980-е — всякое бывало</span><input type="radio" name="questionFour">
+    </div>
+
+    <div class="question">
+      <label>5. Друзья не только веселились, но и успевали работать. Кстати, кем работал Чендлер?</label>
+      <img src="assets/img/quest5.jpg" alt="photo">
+      <span>Экскурсовод</span><input type="radio" name="questionFive">
+      <span>Менеджер по закупкам</span><input type="radio" name="questionFive" id="answerFive">
+      <span>Переводчик-переводник</span><input type="radio" name="questionFive">
+      <span>Никто не знает!</span><input type="radio" name="questionFive">
+    </div>
+
+    <button type="submit" class="btn">Отправить ответы</button>
+
+    <p id="show"></p>
+
+    </form>
+
+    
+  <script src="index.js"></script>
+</body>
+</html>
