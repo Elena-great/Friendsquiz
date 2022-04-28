@@ -58,13 +58,64 @@ input {
   width: 100%;
   border: 1px solid black;
   padding: 15px;
-  font-size: 20px;
+  font-size: 25px;
   margin-top: 10px;
 }
 
 form { 
   background-color:rgba(240, 247, 238, 0.2);
-  width: 600px;
+  max-width: 800px;
   padding: 15px;
   margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.show {
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+.rightAnswerOne, .rightAnswerTwo, .rightAnswerThree, .rightAnswerFour, 
+.rightAnswerFive {
+  color: #06FF00;
+  text-align: center;
+  font-size: 17px;
+  display: none;
+}
+
+@media all and (max-width: 1000px) {
+  form {
+    max-width: 600px;
+  }
+}
+
+@media all and (max-width: 500px) {
+  h1 {
+    font-size: 25px;
+    margin: 0;
+  }
+
+  .text {
+    font-size: 20px;
+  }
+
+  label {
+    font-size: 16px;
+  }
+
+  span {
+    font-size: 14px;
+  }
+
+  form {
+    max-width: 350px;
+    margin: 15px;
+  }
+
+  img {
+    width: 300px;
+  }
+
 }
